@@ -14,7 +14,9 @@ We preprocessed the data following the mtdnn format for ranking tasks. The data 
     
     sh download.sh
     
-2) run sh run_alice_ranking.sh (the option --virtual_teacher enables the use of alice algorithm)
+2) run:
+ 
+ sh run_alice_ranking.sh (the option --virtual_teacher enables the use of alice algorithm)
 
 ADV baseline: To be released soon after some polish
 
