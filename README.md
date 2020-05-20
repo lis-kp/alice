@@ -10,8 +10,8 @@ We preprocessed the data following the mtdnn format for ranking tasks. The data 
 
 ##To run ALICE on the MCScript
 
-1) First, download the roberta pre-trained model (and other models and datasets) by running ./download.sh
-2) run ./run_alice_ranking.sh (the option --virtual_teacher enables the use of alice algorithm)
+1) First, download the roberta pre-trained model (and other models and datasets) by running sh download.sh
+2) run sh run_alice_ranking.sh (the option --virtual_teacher enables the use of alice algorithm)
 
 ADV baseline: To be released soon after some polish
 
