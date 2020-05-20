@@ -4,7 +4,9 @@ Alice is built on top of the mtdnn framework: https://github.com/namisan/mt-dnn 
 
 ##Quick start
 
-At this point, we provide an example on how to run it on the MCScript2.0 dataset: https://my.hidrive.com/share/wdnind8pp5#$/. The dataset is already preprocesed, following the mtdnn format for ranking tasks. To preprocess your own dataset, please check the usage of the prepro_std.py script on the documentation of the mtdnn package. 
+At this point, we provide an example on how to run it on the MCScript2.0 dataset: https://my.hidrive.com/share/wdnind8pp5#$/. 
+
+We preprocesed the data following the mtdnn format for ranking tasks. To preprocess your own dataset, please check the usage of the prepro_std.py script on the documentation of the mtdnn package. 
 
 ##To run ALICE on the MCScript
 
