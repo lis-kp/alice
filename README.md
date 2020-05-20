@@ -14,6 +14,7 @@ We preprocessed the data following the mtdnn format for ranking tasks. To prepro
 2) run ./run_alice_ranking.sh (the option --virtual_teacher enables the use of alice algorithm)
 
 ADV baseline: To be released soon after some polish
+
 SMART baseline: To be released soon by Microsoft Research Team.
 
 ## Citation
