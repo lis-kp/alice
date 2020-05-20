@@ -1,0 +1,15 @@
+ranking:
+    data_format: PremiseAndMultiHypothesis
+    encoder_type: ROBERTA
+    dropout_p: 0.3
+    enable_san: false
+    n_class: 1
+    metric_meta:
+    - ACC
+    - MCC
+    loss: RankCeCriterion
+    task_type: Ranking
+    split_names:
+    - train
+    - dev
+    - test
