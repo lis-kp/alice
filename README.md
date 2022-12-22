@@ -1,3 +1,6 @@
+#this is a test
+hello, this is a test
+
 ##ALICE
 
 Alice is built on top of the mtdnn framework: https://github.com/namisan/mt-dnn . Please check how to use it first. 
