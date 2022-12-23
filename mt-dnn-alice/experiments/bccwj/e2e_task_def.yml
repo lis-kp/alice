@@ -1,0 +1,25 @@
+
+e2e:
+  data_format: PremiseOnly
+  encoder_type: BERT
+  dropout_p: 0.1
+  enable_san: false
+  labels:
+  - AFTER
+  - OVERLAP-OR-AFTER
+  - OVERLAP
+  - BEFORE-OR-OVERLAP
+  - BEFORE
+  - VAGUE
+  metric_meta:
+  - ACC
+  - CMAT
+  #loss: AdMSCriterion
+  loss: CeCriterion
+  kd_loss: MseCriterion
+  adv_loss: HLCriterion
+  n_class: 6
+  split_names:
+  - train
+  - dev
+  task_type: Classification

@@ -348,11 +348,16 @@ def load_data(file_path, data_format, task_type, label_dict=None):
             row = {"uid": fields[0], "label": fields[1], "premise": fields[2]}
         elif data_format == DataFormat.PremiseAndOneHypothesis:
             assert len(fields) == 4
+            #print(fields[1])
+            #if fields[1] =="no": label =  0
+            #else: label = 1
             row = {
                 "uid": fields[0],
                 "label": fields[1],
                 "premise": fields[2],
                 "hypothesis": fields[3]}
+            if fields[1] =="no": row["label"] =  0
+            else: row["label"] = 1
         elif data_format == DataFormat.PremiseAndMultiHypothesis:
             assert len(fields) > 5
             row = {"uid": fields[0], "ruid": fields[1].split(","), "label": fields[2], "premise": fields[3],
@@ -366,10 +371,11 @@ def load_data(file_path, data_format, task_type, label_dict=None):
             else:
                 row["label"] = int(row["label"])
             ##### for mctaco dataset preprocessing ####
-            #if row["label"] == "yes":
-            #    row["label"] = int(1)
-            #elif row["label"] == "no":
-            #    row["label"] = int(0)
+#            print(row["label"])
+            if row["label"] == "yes":
+                row["label"] = int(1)
+            elif row["label"] == "no":
+                row["label"] = int(0)
         elif task_type == TaskType.Regression:
             row["label"] = float(row["label"])
         elif task_type == TaskType.Ranking:

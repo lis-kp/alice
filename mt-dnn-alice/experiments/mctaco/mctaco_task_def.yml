@@ -1,0 +1,16 @@
+mctaco:
+  data_format: PremiseAndOneHypothesis
+  encoder_type: ROBERTA
+  dropout_p: 0.3
+  enable_san: false
+  labels:
+  - yes
+  - no
+  metric_meta:
+  - ACC
+  - F1
+  n_class: 2
+  split_names:
+  - train
+  - dev
+  task_type: Classification
