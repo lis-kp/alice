@@ -77,7 +77,7 @@ The examples were ran on the DGX-1 machine.
 
     ```>cd /home/lis/temp/mt-dnn-alice```
     
-##Data Pre-processing
+## Data Pre-processing
 
 1) MC-TACO
 
@@ -131,7 +131,7 @@ We provide running scripts for 2 settings: standard fine-tuning, and ALICE.
 
 After training, we obtain the following results: 
 
-Standard fine-tuning ->  F1-Score:  86.04
+	Standard fine-tuning ->  F1-Score:  86.04
 
                ALICE ->  F1-Score:  88.09
 
@@ -160,7 +160,7 @@ Standard fine-tuning ->  F1-Score:  86.04
 
 After running 5-fold cross-validation, we obtain the following results (average score of all folds): 
 
-Standard fine-tuning ->   ACC: 74.38
+	Standard fine-tuning ->   ACC: 74.38
          
                ALICE ->   ACC: 75.10 
      
