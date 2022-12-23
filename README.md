@@ -132,7 +132,6 @@ We provide running scripts for 2 settings: standard fine-tuning, and ALICE.
 After training, we obtain the following results: 
 
 Standard fine-tuning ->  F1-Score:  86.04
-  
                ALICE ->  F1-Score:  88.09
 
 ### Training on BCCWJ-Timebank
@@ -160,8 +159,7 @@ Standard fine-tuning ->  F1-Score:  86.04
 
 After running 5-fold cross-validation, we obtain the following results (average score of all folds): 
 
-Standard fine-tuning ->   ACC: 74.38   
-      
+Standard fine-tuning ->   ACC: 74.38         
                ALICE ->   ACC: 75.10 
      
 ### To extract the final hidden states after training the model
