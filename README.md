@@ -1,11 +1,11 @@
 
 Author: Lis Kanashiro Pereira
 
-##ALICE
+## ALICE
 
 Alice is an adversarial training method built on top of the mtdnn framework: https://github.com/namisan/mt-dnn . Please check how to use it first. 
 
-###BERT and Transformers' models
+### BERT and Transformers' models
 
 Recommended references:
 
@@ -15,13 +15,13 @@ Recommended references:
 
 3) Natural Language Processing with Transformers book: https://transformersbook.com/
 
-##Quick start
+## Quick start
 
 We provide a quick example on how to run it on an English temporal task (MC-TACO), and on a Japanese temporal task, the BCCWJ-TimeBank (DCT) Task.
 
 The examples were ran on the DGX-1 machine. 
 
-##Environment Setup
+## Environment Setup
 
 1) First, download the ALICE package from alice/mt-dnn-alice folder.
 
@@ -103,7 +103,7 @@ python prepro_std.py --model japanese_bert/jap_bert.pt  --root_dir bccwj_dataset
 python prepro_std.py --model japanese_bert/jap_bert.pt  --root_dir bccwj_dataset/DCT/4 --task_def experiments/bccwj_task_def.yml --do_lower_case $1
 
 
-##Training with ALICE
+## Training with ALICE
 
 We provide running scripts for 2 settings: standard fine-tuning, and ALICE.
 
@@ -132,6 +132,7 @@ We provide running scripts for 2 settings: standard fine-tuning, and ALICE.
 After training, we obtain the following results: 
 
 Standard fine-tuning ->  F1-Score:  86.04
+
                ALICE ->  F1-Score:  88.09
 
 ### Training on BCCWJ-Timebank
@@ -159,7 +160,8 @@ Standard fine-tuning ->  F1-Score:  86.04
 
 After running 5-fold cross-validation, we obtain the following results (average score of all folds): 
 
-Standard fine-tuning ->   ACC: 74.38         
+Standard fine-tuning ->   ACC: 74.38
+         
                ALICE ->   ACC: 75.10 
      
 ### To extract the final hidden states after training the model
