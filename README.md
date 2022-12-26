@@ -27,25 +27,25 @@ The examples were ran on the DGX-1 machine.
 
 2) Download the BCCWJ-dataset from the DGX-1 data folder: 
 
-```>/data/alice/bccwj_dataset```
+```>/data/lis/datasets/bccwj_dataset```
 
 3) Download the MC-TACO from the DGX-1 data folder: 
 
-```>/data/alice/mctaco_dataset```
+```>/data/lis/datasets/mctaco_dataset```
 
 4) Download the Japanese BERT model from `the DGX-1 data folder: 
 
-    ```>/data/alice/jap_bert``` 
+    ```>/data/lis/japanese_bert``` 
     
     and place it inside the alice/mt-dnn-alice folder.
     
 5) Download the English RoBERTa model from `the DGX-1 data folder: 
 
-    ```>/data/alice/roberta``` 
+    ```>/data/lis/roberta/roberta``` 
     
-    ```>/data/alice/roberta.base```
+    ```>/data/lis/roberta/roberta.base```
     
-    ```>/data/alice/roberta.large```
+    ```>/data/lis/roberta/roberta.large```
     
     and place it inside the alice/mt-dnn-alice folder.
 
@@ -120,20 +120,42 @@ We provide running scripts for 2 settings: standard fine-tuning, and ALICE.
     ```>sh run_mctaco.sh```
     
 2) ALICE:
+ 
+    --------------------------------------------
 
-    please go to the bccwj_alice scripts folder: 
+    Running ALICE on RoBERTa_BASE model
+
+    --------------------------------------------
+
+    please go to the mctaco_alice_roberta_base scripts folder: 
     
-    ```>cd scripts/mctaco_alice```
+    ```>cd scripts/mctaco_alice_roberta_base```
     
     run the training script:
     
     ```>sh run_mctaco.sh```
 
+    --------------------------------------------
+
+    Running ALICE on RoBERTa_LARGE model
+
+    --------------------------------------------
+
+    please go to the mctaco_alice_roberta_large scripts folder:
+
+    ```>cd scripts/mctaco_alice_roberta_large```
+
+    run the training script:
+
+    ```>sh run_mctaco.sh```
+
 After training, we obtain the following results: 
 
-	Standard fine-tuning ->  F1-Score:  86.04
+	Standard fine-tuning (RoBERTa_BASE) ->  F1-Score:  86.04
 
-               ALICE ->  F1-Score:  88.09
+               ALICE (RoBERTa_BASE) ->  F1-Score:  88.09
+
+               ALICE (RoBERTa_LARGE) -> F1-Score: 90.22
 
 ### Training on BCCWJ-Timebank
 
@@ -160,13 +182,31 @@ After training, we obtain the following results:
 
 After running 5-fold cross-validation, we obtain the following results (average score of all folds): 
 
-	Standard fine-tuning ->   ACC: 74.38
+	Standard fine-tuning  ->   ACC: 74.38
          
                ALICE ->   ACC: 75.10 
      
 ### To extract the final hidden states after training the model
 
-To be done by monday 12/16th
+You can run the following code on your local machine (no need to use docker).
+
+In this example, we visualize the final hidden states of the bert model after fine-tuning it on the bccwj dataset.
+
+When we fine-tune a model on a dataset, the model weights are saved at the checkpoints folder located in the same folder as the .sh script you run. 
+
+First, we need to remove the top layer of the model. To do that, please run:
+
+python strip.py --checkpoint your_fine_tuned_model_path --fout your_output_model_path
+
+I placed a top layer removed model inside the data/lis/alice_models folder. Please copy and place this model file inside the alice/mt-dnn-alice folder.
+
+Go to the alice folder, and run the following command:
+
+python plot.py --checkpoint mt-dnn-alice/dct_alice_top_removed.pt --train_data mt-dnn-alice/bccwj_dataset/DCT/0/dct_train.tsv 
+
+
+
+ 
 
 ## Citation
 See the following paper:
