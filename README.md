@@ -204,7 +204,9 @@ Go to the alice folder, and run the following command:
 
 python plot.py --checkpoint mt-dnn-alice/dct_alice_top_removed.pt --train_data mt-dnn-alice/bccwj_dataset/DCT/0/dct_train.tsv 
 
+After running the script, you should be able to visualize a figure such as the one below:
 
+![Screenshot](bccwj_dct_alice.png)
 
  
 
