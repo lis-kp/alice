@@ -35,17 +35,17 @@ The examples were ran on the DGX-1 machine.
 
 4) Download the Japanese BERT model from `the DGX-1 data folder: 
 
-    ``>/data/alice/jap_bert``` 
+    ```>/data/alice/jap_bert``` 
     
     and place it inside the alice/mt-dnn-alice folder.
     
 5) Download the English RoBERTa model from `the DGX-1 data folder: 
 
-    ``>/data/alice/roberta``` 
+    ```>/data/alice/roberta``` 
     
-    ``>/data/alice/roberta.base```
+    ```>/data/alice/roberta.base```
     
-    ``>/data/alice/roberta.large```
+    ```>/data/alice/roberta.large```
     
     and place it inside the alice/mt-dnn-alice folder.
 
