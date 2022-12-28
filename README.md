@@ -35,7 +35,7 @@ The examples were ran on the DGX-1 machine.
 
 4) Download the Japanese BERT model from `the DGX-1 data folder: 
 
-    ```>/data/lis/japanese_bert``` 
+    ```>/data/lis/japanese_bert_new``` 
     
     and place it inside the alice/mt-dnn-alice folder.
     
@@ -92,15 +92,15 @@ For this dataset, we perform 5-fold cross-validation, so we need to pre-process 
 
 To pre-process the dataset, run the following command:
 
-```>python prepro_std.py --model japanese_bert/jap_bert.pt  --root_dir bccwj_dataset/DCT/0 --task_def experiments/bccwj_task_def.yml --do_lower_case $1```
+```>python prepro_japanese.py --model japanese_bert/  --root_dir bccwj_dataset/DCT/0 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
 
-```>python prepro_std.py --model japanese_bert/jap_bert.pt  --root_dir bccwj_dataset/DCT/1 --task_def experiments/bccwj_task_def.yml --do_lower_case $1```
+```>python prepro_japanese.py --model japanese_bert/  --root_dir bccwj_dataset/DCT/1 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
 
-```>python prepro_std.py --model japanese_bert/jap_bert.pt  --root_dir bccwj_dataset/DCT/2 --task_def experiments/bccwj_task_def.yml --do_lower_case $1```
+```>python prepro_japanese.py --model japanese_bert/  --root_dir bccwj_dataset/DCT/2 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
 
-```>python prepro_std.py --model japanese_bert/jap_bert.pt  --root_dir bccwj_dataset/DCT/3 --task_def experiments/bccwj_task_def.yml --do_lower_case $1```
+```>python prepro_japanese.py --model japanese_bert/ --root_dir bccwj_dataset/DCT/3 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
 
-```>python prepro_std.py --model japanese_bert/jap_bert.pt  --root_dir bccwj_dataset/DCT/4 --task_def experiments/bccwj_task_def.yml --do_lower_case $1```
+```>python prepro_japanese.py --model japanese_bert/  --root_dir bccwj_dataset/DCT/4 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
 
 
 ## Training with ALICE

@@ -18,7 +18,7 @@ MODEL_ROOT="checkpoints"
 
 BERT_PATH="../../japanese_bert/jap_bert.pt"
 #BERT_PATH="../mt_dnn_models/xlm/"
-DATA_DIR="../../bccwj_dataset/DCT/4/bert_base_uncased_lower/"
+DATA_DIR="../../bccwj_dataset/DCT/4/bert_cased_lower/"
 
 answer_opt=0
 optim="adam"

@@ -367,6 +367,7 @@ def main():
 
     if encoder_type == EncoderModelType.BERT:
         if os.path.exists(bert_model_path):
+            #state_dict = torch.jit.load(bert_model_path)
             state_dict = torch.load(bert_model_path)
             config = state_dict['config']
             config['attention_probs_dropout_prob'] = args.bert_dropout_p

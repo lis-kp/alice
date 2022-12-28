@@ -26,3 +26,49 @@
 12/23/2022 05:59:47 Task mctaco
 12/23/2022 05:59:47 mctaco_dataset/roberta_cased_lower/mctaco_train.json
 12/23/2022 05:59:48 mctaco_dataset/roberta_cased_lower/mctaco_dev.json
+12/27/2022 03:40:57 Task dct
+12/27/2022 03:40:57 bccwj_dataset/DCT/0/bert_cased_lower/dct_train.json
+12/27/2022 03:40:58 bccwj_dataset/DCT/0/bert_cased_lower/dct_dev.json
+12/27/2022 05:15:53 Task dct
+12/27/2022 05:15:53 bccwj_dataset/DCT/0/bert_cased_lower/dct_train.json
+12/27/2022 05:15:54 bccwj_dataset/DCT/0/bert_cased_lower/dct_dev.json
+12/27/2022 05:16:08 Task dct
+12/27/2022 05:16:08 bccwj_dataset/DCT/1/bert_cased_lower/dct_train.json
+12/27/2022 05:16:10 bccwj_dataset/DCT/1/bert_cased_lower/dct_dev.json
+12/27/2022 05:16:20 Task dct
+12/27/2022 05:16:20 bccwj_dataset/DCT/2/bert_cased_lower/dct_train.json
+12/27/2022 05:16:22 bccwj_dataset/DCT/2/bert_cased_lower/dct_dev.json
+12/27/2022 05:16:32 Task dct
+12/27/2022 05:16:32 bccwj_dataset/DCT/3/bert_cased_lower/dct_train.json
+12/27/2022 05:16:33 bccwj_dataset/DCT/3/bert_cased_lower/dct_dev.json
+12/27/2022 05:16:43 Task dct
+12/27/2022 05:16:43 bccwj_dataset/DCT/4/bert_cased_lower/dct_train.json
+12/27/2022 05:16:45 bccwj_dataset/DCT/4/bert_cased_lower/dct_dev.json
+12/27/2022 06:08:50 Task dct
+12/27/2022 06:08:50 bccwj_dataset/DCT/0/bert_cased_lower/dct_train.json
+12/27/2022 06:09:50 Task dct
+12/27/2022 06:09:50 bccwj_dataset/DCT/0/bert_cased_lower/dct_train.json
+12/27/2022 06:19:34 Task dct
+12/27/2022 06:19:34 bccwj_dataset/DCT/0/bert_cased_lower/dct_train.json
+12/27/2022 06:19:36 bccwj_dataset/DCT/0/bert_cased_lower/dct_dev.json
+12/27/2022 06:22:15 Task dct
+12/27/2022 06:22:15 bccwj_dataset/DCT/0/bert_cased_lower/dct_train.json
+12/27/2022 06:22:17 bccwj_dataset/DCT/0/bert_cased_lower/dct_dev.json
+12/27/2022 06:24:50 Task dct
+12/27/2022 06:24:50 bccwj_dataset/DCT/0/bert_cased_lower/dct_train.json
+12/27/2022 06:24:51 bccwj_dataset/DCT/0/bert_cased_lower/dct_dev.json
+12/27/2022 06:26:20 Task dct
+12/27/2022 06:26:20 bccwj_dataset/DCT/0/bert_cased_lower/dct_train.json
+12/27/2022 06:26:21 bccwj_dataset/DCT/0/bert_cased_lower/dct_dev.json
+12/27/2022 06:26:59 Task dct
+12/27/2022 06:26:59 bccwj_dataset/DCT/0/bert_cased_lower/dct_train.json
+12/27/2022 06:27:03 bccwj_dataset/DCT/0/bert_cased_lower/dct_dev.json
+12/27/2022 06:27:49 Task dct
+12/27/2022 06:27:49 bccwj_dataset/DCT/0/bert_cased_lower/dct_train.json
+12/27/2022 06:27:51 bccwj_dataset/DCT/0/bert_cased_lower/dct_dev.json
+12/27/2022 09:55:55 Task dct
+12/27/2022 09:55:55 bccwj_dataset/DCT/0/bert_cased_lower/dct_train.json
+12/27/2022 09:55:57 bccwj_dataset/DCT/0/bert_cased_lower/dct_dev.json
+12/28/2022 02:11:43 Task dct
+12/28/2022 02:11:43 bccwj_dataset/DCT/0/bert_cased_lower/dct_train.json
+12/28/2022 02:11:45 bccwj_dataset/DCT/0/bert_cased_lower/dct_dev.json

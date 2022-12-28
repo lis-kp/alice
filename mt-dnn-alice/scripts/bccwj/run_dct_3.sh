@@ -18,7 +18,7 @@ MODEL_ROOT="checkpoints"
 
 BERT_PATH="../../japanese_bert/jap_bert.pt"
 #BERT_PATH="../mt_dnn_models/xlm/"
-DATA_DIR="../../bccwj_dataset/DCT/3/bert_base_uncased_lower/"
+DATA_DIR="../../bccwj_dataset/DCT/3/bert_cased_lower/"
 
 answer_opt=0
 optim="adam"
@@ -29,4 +29,4 @@ task_def="../../experiments/bccwj/dct_task_def.yml"
 
 model_dir="checkpoints/${prefix}_${optim}_answer_opt${answer_opt}_gc${grad_clipping}_ggc${global_grad_clipping}_${tstr}"
 log_file="${model_dir}/log.log"
-python ../../train.py  --epochs 10 --seed 1024 --max_seq_len 256 --data_dir ${DATA_DIR} --task_def ${task_def} --init_checkpoint ${BERT_PATH} --batch_size ${BATCH_SIZE} --output_dir ${model_dir} --log_file ${log_file} --answer_opt ${answer_opt} --optimizer ${optim} --train_datasets ${train_datasets} --test_datasets ${test_datasets} --grad_clipping ${grad_clipping} --global_grad_clipping ${global_grad_clipping} --learning_rate ${lr} --multi_gpu_on
+python ../../train.py  --epochs 10 --seed 1024  --max_seq_len 256 --data_dir ${DATA_DIR} --task_def ${task_def} --init_checkpoint ${BERT_PATH} --batch_size ${BATCH_SIZE} --output_dir ${model_dir} --log_file ${log_file} --answer_opt ${answer_opt} --optimizer ${optim} --train_datasets ${train_datasets} --test_datasets ${test_datasets} --grad_clipping ${grad_clipping} --global_grad_clipping ${global_grad_clipping} --learning_rate ${lr} --multi_gpu_on

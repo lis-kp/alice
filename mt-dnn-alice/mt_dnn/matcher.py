@@ -34,7 +34,10 @@ class SANBertNetwork(nn.Module):
             hidden_size = self.bert.args.encoder_embed_dim
             self.pooler = LinearPooler(hidden_size)
         else: 
+            print("------------------------------------")
             self.bert_config = BertConfig.from_dict(opt)
+            print(self.bert_config)
+            print("-------------------------------------")
             self.bert = BertModel(self.bert_config)
             hidden_size = self.bert_config.hidden_size
 
