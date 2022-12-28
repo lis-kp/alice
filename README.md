@@ -92,15 +92,15 @@ For this dataset, we perform 5-fold cross-validation, so we need to pre-process 
 
 To pre-process the dataset, run the following command:
 
-```>python prepro_japanese.py --model japanese_bert/  --root_dir bccwj_dataset/DCT/0 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
+```>python prepro_japanese.py --model japanese_bert_new/  --root_dir bccwj_dataset/DCT/0 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
 
-```>python prepro_japanese.py --model japanese_bert/  --root_dir bccwj_dataset/DCT/1 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
+```>python prepro_japanese.py --model japanese_bert_new/  --root_dir bccwj_dataset/DCT/1 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
 
-```>python prepro_japanese.py --model japanese_bert/  --root_dir bccwj_dataset/DCT/2 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
+```>python prepro_japanese.py --model japanese_bert_new/  --root_dir bccwj_dataset/DCT/2 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
 
-```>python prepro_japanese.py --model japanese_bert/ --root_dir bccwj_dataset/DCT/3 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
+```>python prepro_japanese.py --model japanese_bert_new/ --root_dir bccwj_dataset/DCT/3 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
 
-```>python prepro_japanese.py --model japanese_bert/  --root_dir bccwj_dataset/DCT/4 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
+```>python prepro_japanese.py --model japanese_bert_new/  --root_dir bccwj_dataset/DCT/4 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
 
 
 ## Training with ALICE
