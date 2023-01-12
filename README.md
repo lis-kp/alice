@@ -23,17 +23,21 @@ The examples were ran on the DGX-1 machine.
 
 ## Environment Setup
 
-1) First, download the ALICE package from alice/mt-dnn-alice folder.
+1) First, download the ALICE package from the  /data/lis/alice/ folder on the DGX-1 machine.
 
 2) Download the BCCWJ-dataset from the DGX-1 data folder: 
 
 ```>/data/lis/datasets/bccwj_dataset```
 
+   and place it inside the alice/mt-dnn-alice folder.
+
 3) Download the MC-TACO from the DGX-1 data folder: 
 
 ```>/data/lis/datasets/mctaco_dataset```
+    
+   and place it inside the alice/mt-dnn-alice folder.
 
-4) Download the Japanese BERT model from `the DGX-1 data folder: 
+4) Download the Japanese BERT model (nwjc-bert-200k) from `the DGX-1 data folder: 
 
     ```>/data/lis/japanese_bert``` 
     
@@ -87,6 +91,12 @@ To pre-process the dataset, run the following command:
 
 
 2) BCCWJ-Timebank
+
+First, please install the Mecab package by running the following command:
+
+```>pip install mecab-python3```
+
+We also need to download the unidic dictionary for Mecab. Please copy the folder /data/lis/unidic-mecab-2.1.2_bin and place it inside the mt-dnn-alice folder. 
 
 For this dataset, we perform 5-fold cross-validation, so we need to pre-process all the 5 data folders.
 
