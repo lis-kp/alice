@@ -23,7 +23,9 @@ The examples were ran on the DGX-1 machine.
 
 ## Environment Setup
 
-1) First, download the ALICE package from the  /data/lis/alice/ folder on the DGX-1 machine.
+1) First, download the ALICE package from the DGX-1 data folder:
+
+```> /data/lis/alice/```
 
 2) Download the BCCWJ-dataset from the DGX-1 data folder: 
 
