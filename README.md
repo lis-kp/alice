@@ -96,7 +96,7 @@ First, please install the Mecab package by running the following command:
 
 ```>pip install mecab-python3```
 
-We also need to download the unidic dictionary for Mecab. Please copy the folder /data/lis/unidic-mecab-2.1.2_bin and place it inside the mt-dnn-alice folder. 
+We also need to download the unidic dictionary for Mecab. Please copy the folder /data/lis/unidic-mecab-2.1.2_bin and place it inside the alice/mt-dnn-alice folder. 
 
 For this dataset, we perform 5-fold cross-validation, so we need to pre-process all the 5 data folders.
 
