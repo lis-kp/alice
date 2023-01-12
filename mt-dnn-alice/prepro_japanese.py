@@ -42,9 +42,9 @@ logger = create_logger(
 # '<s>', '<pad>', '</s>', '<unk>'
 
 #------------------------- modified by Lis ---------------------------
-mecab = MeCab.Tagger('')
+mecab = MeCab.Tagger('-d unidic-mecab-2.1.2_bin')
 
-def load_vocab_(path):
+def load_vocab(path):
     vocab = collections.OrderedDict()
     index = 0
     with open(path, 'r', encoding='utf8') as reader:
@@ -57,19 +57,21 @@ def load_vocab_(path):
             #    raise ValueError(
             #        "Incorrect dictionary format, expected '<token> <cnt>'")
             #word = line[:index]
-            if not token: break
+            if not token: print("not token:")
             #vocab.add(word)
             vocab[token] = index
             index += 1
     return vocab
 
-def load_vocab(vocab_file):
+def load_vocab_(vocab_file):
     """Loads a vocabulary file into a dictionary."""
     vocab = collections.OrderedDict()
     index = 0
-    with tf.io.gfile.GFile(vocab_file, "r") as reader:
+    with tf.gfile.GFile(vocab_file, "r") as reader:
         while True:
+            
             token = convert_to_unicode(reader.readline())
+#            print(token)
             if not token:
                 break
             #token, _ = token.split("\t")
@@ -108,7 +110,7 @@ def get_lemmas(sentence):
 #        print(lemmas)
     return " ".join(lemmas).strip()
 
-vocab = load_vocab('japanese_bert_new/vocab.txt')
+vocab = load_vocab('japanese_bert/vocab.txt')
 #-------------------------------------------------------------------
 
 def convert_by_vocab(vocab, items, unk_info):

@@ -16,10 +16,9 @@ MODEL_ROOT="checkpoints"
 #BERT_PATH="../mt_dnn_models/bert_model_large_uncased.pt"
 #DATA_DIR="../data_mc_taco/canonical_data/MNLI/bert_large_uncased_lower"
 
-BERT_PATH="../../japanese_bert/jap_bert.pt"
+BERT_PATH="../../nwjc-bert-200k/nwjc.pt"
 #BERT_PATH="../mt_dnn_models/xlm/"
-DATA_DIR="../../bccwj_dataset/DCT/3/bert_base_uncased_lower/"
-
+DATA_DIR="../../bccwj_dataset/DCT/3/bert_cased_lower/"
 answer_opt=0
 optim="adam"
 grad_clipping=0

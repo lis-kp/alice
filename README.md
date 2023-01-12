@@ -35,7 +35,7 @@ The examples were ran on the DGX-1 machine.
 
 4) Download the Japanese BERT model from `the DGX-1 data folder: 
 
-    ```>/data/lis/japanese_bert_new``` 
+    ```>/data/lis/japanese_bert``` 
     
     and place it inside the alice/mt-dnn-alice folder.
     
@@ -92,15 +92,15 @@ For this dataset, we perform 5-fold cross-validation, so we need to pre-process 
 
 To pre-process the dataset, run the following command:
 
-```>python prepro_japanese.py --model japanese_bert_new/  --root_dir bccwj_dataset/DCT/0 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
+```>python prepro_japanese.py --model japanese_bert/  --root_dir bccwj_dataset/DCT/0 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
 
-```>python prepro_japanese.py --model japanese_bert_new/  --root_dir bccwj_dataset/DCT/1 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
+```>python prepro_japanese.py --model japanese_bert/  --root_dir bccwj_dataset/DCT/1 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
 
-```>python prepro_japanese.py --model japanese_bert_new/  --root_dir bccwj_dataset/DCT/2 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
+```>python prepro_japanese.py --model japanese_bert/  --root_dir bccwj_dataset/DCT/2 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
 
-```>python prepro_japanese.py --model japanese_bert_new/ --root_dir bccwj_dataset/DCT/3 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
+```>python prepro_japanese.py --model japanese_bert/ --root_dir bccwj_dataset/DCT/3 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
 
-```>python prepro_japanese.py --model japanese_bert_new/  --root_dir bccwj_dataset/DCT/4 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
+```>python prepro_japanese.py --model japanese_bert/  --root_dir bccwj_dataset/DCT/4 --task_def experiments/bccwj/dct_task_def.yml --do_lower_case $1```
 
 
 ## Training with ALICE
@@ -182,9 +182,9 @@ After training, we obtain the following results:
 
 After running 5-fold cross-validation, we obtain the following results (average score of all folds): 
 
-	Standard fine-tuning  ->   ACC: 74.38
+	Standard fine-tuning  ->   ACC: 65.85
          
-               ALICE ->   ACC: 75.10 
+               ALICE ->   ACC: 68.59
      
 ### To extract the final hidden states after training the model
 
@@ -198,7 +198,7 @@ First, we need to remove the top layer of the model. To do that, please run:
 
 python strip.py --checkpoint your_fine_tuned_model_path --fout your_output_model_path
 
-I placed a top layer removed model inside the data/lis/alice_models folder. Please copy and place this model file inside the alice/mt-dnn-alice folder.
+I placed a top layer removed model inside the data/lis/alice_models folder. The file name is dct_alice_top_removed.pt. Please copy and place this model file inside the alice/mt-dnn-alice folder.
 
 Go to the alice folder, and run the following command:
 
