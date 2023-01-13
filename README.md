@@ -108,7 +108,8 @@ We provide running scripts for 2 settings: standard fine-tuning, and ALICE.
     
     ```>sh run_mctaco.sh```
    
-    ** Note that the difference is that we add the --virtual_teacher parameter in the training command.
+    <font color="blue">Note that the difference is that we add the --virtual_teacher parameter in the training command.</font>
+
     --------------------------------------------
 
     Running ALICE on RoBERTa_LARGE model
