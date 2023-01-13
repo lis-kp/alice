@@ -138,3 +138,6 @@
 01/13/2023 03:36:44 Task sentiment
 01/13/2023 03:36:44 sentiment_dataset/bert_cased_lower/sentiment_train.json
 01/13/2023 03:36:44 sentiment_dataset/bert_cased_lower/sentiment_dev.json
+01/13/2023 05:15:52 Task mctaco
+01/13/2023 05:15:52 mctaco_dataset/roberta_cased_lower/mctaco_train.json
+01/13/2023 05:15:54 mctaco_dataset/roberta_cased_lower/mctaco_dev.json

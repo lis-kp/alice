@@ -33,13 +33,9 @@ The examples was ran on the DGX-1 machine.
     
    and place it inside the alice/mt-dnn-alice folder.
 
-3) Download the English RoBERTa model from `the DGX-1 data folder: 
+3) Download the English RoBERTa model folder from `the DGX-1 data folder: 
 
-    ```>/data/lis/roberta/roberta``` 
-    
-    ```>/data/lis/roberta/roberta.base```
-    
-    ```>/data/lis/roberta/roberta.large```
+    ```>/data/lis/roberta``` 
     
     and place them inside the alice/mt-dnn-alice folder.
 
