@@ -463,15 +463,21 @@ def load_data(file_path, data_format, task_type, label_dict=None):
             raise ValueError(data_format)
 
         if task_type == TaskType.Classification:
-            if label_dict is not None:
+#            print(row["label"])
+#            if label_dict is not None:
+#                row["label"] = label_dict[row["label"]]
+#            else:
+#                row["label"] = int(row["label"])
+#            print(row["label"])
+            ##### for mctaco dataset preprocessing ####
+            if row["label"] == "yes":
+                row["label"] = int(1)
+            elif row["label"] == "no":
+                row["label"] = int(0)
+            elif label_dict is not None:
                 row["label"] = label_dict[row["label"]]
             else:
                 row["label"] = int(row["label"])
-            ##### for mctaco dataset preprocessing ####
-            #if row["label"] == "yes":
-            #    row["label"] = int(1)
-            #elif row["label"] == "no":
-            #    row["label"] = int(0)
         elif task_type == TaskType.Regression:
             row["label"] = float(row["label"])
         elif task_type == TaskType.Ranking:

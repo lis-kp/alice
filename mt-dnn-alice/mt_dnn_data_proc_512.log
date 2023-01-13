@@ -111,3 +111,30 @@
 01/12/2023 03:40:29 Task dct
 01/12/2023 03:40:29 ../bccwj_dataset/DCT/4/bert_cased_lower/dct_train.json
 01/12/2023 03:40:31 ../bccwj_dataset/DCT/4/bert_cased_lower/dct_dev.json
+01/13/2023 03:21:20 Task sentiment
+01/13/2023 03:21:20 sentiment_dataset/bert_cased_lower/sentiment_train.json
+01/13/2023 03:21:21 sentiment_dataset/bert_cased_lower/sentiment_dev.json
+01/13/2023 03:25:57 Task sentiment
+01/13/2023 03:25:57 sentiment_dataset/bert_cased_lower/sentiment_train.json
+01/13/2023 03:25:57 sentiment_dataset/bert_cased_lower/sentiment_dev.json
+01/13/2023 03:26:56 Task sentiment
+01/13/2023 03:26:56 sentiment_dataset/bert_cased_lower/sentiment_train.json
+01/13/2023 03:26:56 sentiment_dataset/bert_cased_lower/sentiment_dev.json
+01/13/2023 03:29:56 Task sentiment
+01/13/2023 03:29:56 sentiment_dataset/bert_cased_lower/sentiment_train.json
+01/13/2023 03:29:56 sentiment_dataset/bert_cased_lower/sentiment_dev.json
+01/13/2023 03:31:44 Task sentiment
+01/13/2023 03:31:44 sentiment_dataset/bert_cased_lower/sentiment_train.json
+01/13/2023 03:31:44 sentiment_dataset/bert_cased_lower/sentiment_dev.json
+01/13/2023 03:33:32 Task sentiment
+01/13/2023 03:33:32 sentiment_dataset/bert_cased_lower/sentiment_train.json
+01/13/2023 03:33:32 sentiment_dataset/bert_cased_lower/sentiment_dev.json
+01/13/2023 03:34:16 Task sentiment
+01/13/2023 03:34:16 sentiment_dataset/bert_cased_lower/sentiment_train.json
+01/13/2023 03:34:17 sentiment_dataset/bert_cased_lower/sentiment_dev.json
+01/13/2023 03:35:22 Task sentiment
+01/13/2023 03:35:22 sentiment_dataset/bert_cased_lower/sentiment_train.json
+01/13/2023 03:35:22 sentiment_dataset/bert_cased_lower/sentiment_dev.json
+01/13/2023 03:36:44 Task sentiment
+01/13/2023 03:36:44 sentiment_dataset/bert_cased_lower/sentiment_train.json
+01/13/2023 03:36:44 sentiment_dataset/bert_cased_lower/sentiment_dev.json
