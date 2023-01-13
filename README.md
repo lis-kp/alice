@@ -93,7 +93,7 @@ We provide running scripts for 2 settings: standard fine-tuning, and ALICE.
     ```>sh run_mctaco.sh```
     
 2) ALICE:
- 
+     
     --------------------------------------------
 
     Running ALICE on RoBERTa_BASE model
@@ -107,7 +107,8 @@ We provide running scripts for 2 settings: standard fine-tuning, and ALICE.
     run the training script:
     
     ```>sh run_mctaco.sh```
-
+   
+    ** Note that the difference is that we add the --virtual_teacher parameter in the training command.
     --------------------------------------------
 
     Running ALICE on RoBERTa_LARGE model
