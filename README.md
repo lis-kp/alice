@@ -108,7 +108,7 @@ We provide running scripts for 2 settings: standard fine-tuning, and ALICE.
     
     ```>sh run_mctaco.sh```
    
-    ![Red text] Note that the difference is that we add the --virtual_teacher parameter in the training command.
+    Note that the difference is that we add the --virtual_teacher parameter in the training command.
 
     --------------------------------------------
 
@@ -132,7 +132,8 @@ After training, we obtain the following results:
 
                ALICE (RoBERTa_LARGE) -> F1-Score: 90.22
     
- 
+The models are saved inside the checkpoints folder, located in the same folder as the .sh file.
+
 ## Citation
 See the following paper:
 
