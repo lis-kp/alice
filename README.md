@@ -132,7 +132,7 @@ After training, we obtain the following results:
 
                ALICE (RoBERTa_LARGE) -> F1-Score: 90.22
     
-The models are saved inside the checkpoints folder, located in the same folder as the .sh file.
+The models are saved inside the checkpoints folder, located in the same folder as the .sh file. The models files are the files with the .pt extension, e.g. model_9.pt.
 
 ## Citation
 See the following paper:
