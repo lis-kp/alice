@@ -27,6 +27,10 @@ The examples were ran on the DGX-1 machine.
 
 ```> /data/lis/alice/```
 
+or directly from github:
+
+```> git clone https://github.com/lis-kp/alice.git ```
+
 2) Download the MC-TACO from the DGX-1 data folder: 
 
 ```>/data/lis/datasets/mctaco_dataset```
