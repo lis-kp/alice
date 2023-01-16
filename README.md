@@ -19,7 +19,7 @@ Recommended references:
 
 We provide a quick example on how to run it on an English temporal task (MC-TACO).
 
-The examples was ran on the DGX-1 machine. 
+The examples were ran on the DGX-1 machine. 
 
 ## Environment Setup
 
