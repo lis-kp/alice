@@ -17,7 +17,7 @@ Recommended references:
 
 ## Quick start
 
-We provide a quick example on how to run it on an English temporal task (MC-TACO).
+We provide a quick example on how to run it on an English temporal task (MC-TACO). For details about the MC-TACO dataset, please check the following paper: https://aclanthology.org/D19-1332/
 
 The examples were ran on the DGX-1 machine. 
 
