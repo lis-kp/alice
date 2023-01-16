@@ -134,6 +134,10 @@ After training, we obtain the following results:
     
 The models are saved inside the checkpoints folder, located in the same folder as the .sh file. The models files are the files with the .pt extension, e.g. model_9.pt.
 
+## Questions
+
+If you have any question, please submit it on github, or send an email to kanashiro.pereira@ocha.ac.jp
+
 ## Citation
 See the following paper:
 
