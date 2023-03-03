@@ -67,7 +67,7 @@ or directly from github:
     
     ```>V_DIR=alice```
     
-    ```>docker run --runtime=nvidia --device=/dev/nvidia0  --device=/dev/nvidia1 --device=/dev/nvidia2 --device=/dev/nvidia3 --device=/dev/nvidia4 --device=/dev/nvidia5 --device=/dev/nvidia6 --device=/dev/nvidia7  -it  --rm --name alice --net host --volume $V_DIR:/home/lis/temp  --interactive --tty $IMAGE /bin/bash```
+    ```>docker run --runtime=nvidia --device=/dev/nvidia0  --device=/dev/nvidia1 --device=/dev/nvidia2 --device=/dev/nvidia3 --device=/dev/nvidia4 --device=/dev/nvidia5 --device=/dev/nvidia6 --device=/dev/nvidia7  -it  --rm --name alice_tutorial --net host --volume $V_DIR:/home/lis/temp  --interactive --tty $IMAGE /bin/bash```
 
     ```>cd /home/lis/temp/mt-dnn-alice```
     
