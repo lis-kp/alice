@@ -90,7 +90,7 @@ We provide running scripts for 2 settings: standard fine-tuning, and ALICE.
 
     please go to the mctaco scripts folder: 
     
-    ```>cd scripts/mctaco```
+    ```>cd scripts/mctaco_roberta_base```
     
     run the training script:
     
