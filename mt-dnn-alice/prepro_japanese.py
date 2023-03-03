@@ -71,7 +71,7 @@ def load_vocab_(vocab_file):
         while True:
             
             token = convert_to_unicode(reader.readline())
-#            print(token)
+            print(token)
             if not token:
                 break
             #token, _ = token.split("\t")
@@ -110,7 +110,8 @@ def get_lemmas(sentence):
 #        print(lemmas)
     return " ".join(lemmas).strip()
 
-vocab = load_vocab('japanese_bert/vocab.txt')
+#vocab = load_vocab('japanese_bert/vocab.txt')
+vocab = load_vocab('japanese_bert_new_/vocab.txt')
 #-------------------------------------------------------------------
 
 def convert_by_vocab(vocab, items, unk_info):
@@ -543,6 +544,7 @@ def main(args):
         else:
             tokenizer.load('mt_dnn_models/xlnet_base_cased_spiece.model')
     else:
+        print(args.model, do_lower_case)
         tokenizer = BertTokenizer.from_pretrained(
             args.model, do_lower_case=do_lower_case)
 

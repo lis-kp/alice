@@ -77,7 +77,7 @@ MC-TACO
 
 To pre-process the dataset, run the following command:
 
-```>python prepro_std.py --model roberta --roberta_path roberta  --root_dir mctaco_dataset/ --task_def experiments/mctaco/mctaco_task_def.yml --do_lower_case $1```
+```>python prepro_std.py --model roberta --roberta_path roberta/roberta  --root_dir mctaco_dataset/ --task_def experiments/mctaco/mctaco_task_def.yml --do_lower_case $1```
 
 
 ## Training with ALICE

@@ -10,7 +10,7 @@ def compute_acc(predicts, labels):
     return 100.0 * accuracy_score(labels, predicts)
 
 def compute_f1(predicts, labels):
-    return 100.0 * f1_score(labels, predicts)
+    return 100.0 * f1_score(labels, predicts, average='macro')
 
 def compute_mcc(predicts, labels):
     return 100.0 * matthews_corrcoef(labels, predicts)

@@ -141,3 +141,162 @@
 01/13/2023 05:15:52 Task mctaco
 01/13/2023 05:15:52 mctaco_dataset/roberta_cased_lower/mctaco_train.json
 01/13/2023 05:15:54 mctaco_dataset/roberta_cased_lower/mctaco_dev.json
+02/13/2023 04:52:47 Task genjitsukasou
+02/13/2023 04:54:36 Task dvdppf
+02/13/2023 04:54:36 dvd_hanashi/dvd_ppf_new/0/bert_cased_lower/dvdppf_train.json
+02/13/2023 04:56:38 Task dvdppf
+02/13/2023 04:56:38 dvd_hanashi/dvd_ppf_new/0/bert_cased_lower/dvdppf_train.json
+02/13/2023 04:56:39 dvd_hanashi/dvd_ppf_new/0/bert_cased_lower/dvdppf_dev.json
+02/13/2023 07:42:30 Task dvdppf
+02/13/2023 07:42:30 dvd_hanashi/dvd_ppf_new/1/bert_cased_lower/dvdppf_train.json
+02/13/2023 07:42:31 dvd_hanashi/dvd_ppf_new/1/bert_cased_lower/dvdppf_dev.json
+02/13/2023 07:42:43 Task dvdppf
+02/13/2023 07:42:43 dvd_hanashi/dvd_ppf_new/2/bert_cased_lower/dvdppf_train.json
+02/13/2023 07:42:44 dvd_hanashi/dvd_ppf_new/2/bert_cased_lower/dvdppf_dev.json
+02/13/2023 07:42:56 Task dvdppf
+02/13/2023 07:42:56 dvd_hanashi/dvd_ppf_new/3/bert_cased_lower/dvdppf_train.json
+02/13/2023 07:42:57 dvd_hanashi/dvd_ppf_new/3/bert_cased_lower/dvdppf_dev.json
+02/13/2023 07:43:09 Task dvdppf
+02/13/2023 07:43:10 dvd_hanashi/dvd_ppf_new/4/bert_cased_lower/dvdppf_train.json
+02/13/2023 07:43:10 dvd_hanashi/dvd_ppf_new/4/bert_cased_lower/dvdppf_dev.json
+02/13/2023 08:12:44 Task dvdduration
+02/13/2023 08:12:44 dvd_hanashi/dvd_duration_new/0/bert_cased_lower/dvdduration_train.json
+02/13/2023 08:12:44 dvd_hanashi/dvd_duration_new/0/bert_cased_lower/dvdduration_dev.json
+02/13/2023 08:15:07 Task dvdduration
+02/13/2023 08:15:07 dvd_hanashi/dvd_duration_new/1/bert_cased_lower/dvdduration_train.json
+02/13/2023 08:15:07 dvd_hanashi/dvd_duration_new/1/bert_cased_lower/dvdduration_dev.json
+02/13/2023 08:15:20 Task dvdduration
+02/13/2023 08:15:20 dvd_hanashi/dvd_duration_new/2/bert_cased_lower/dvdduration_train.json
+02/13/2023 08:15:21 dvd_hanashi/dvd_duration_new/2/bert_cased_lower/dvdduration_dev.json
+02/13/2023 08:15:34 Task dvdduration
+02/13/2023 08:15:34 dvd_hanashi/dvd_duration_new/3/bert_cased_lower/dvdduration_train.json
+02/13/2023 08:15:35 dvd_hanashi/dvd_duration_new/3/bert_cased_lower/dvdduration_dev.json
+02/13/2023 08:15:47 Task dvdduration
+02/13/2023 08:15:47 dvd_hanashi/dvd_duration_new/4/bert_cased_lower/dvdduration_train.json
+02/13/2023 08:15:48 dvd_hanashi/dvd_duration_new/4/bert_cased_lower/dvdduration_dev.json
+02/14/2023 02:07:29 Task dvdorder
+02/14/2023 02:07:30 dvd_hanashi/dvd_order_new/0/bert_cased_lower/dvdorder_train.json
+02/14/2023 02:07:30 dvd_hanashi/dvd_order_new/0/bert_cased_lower/dvdorder_dev.json
+02/14/2023 02:08:30 Task dvdorder
+02/14/2023 02:08:30 dvd_hanashi/dvd_order_new/1/bert_cased_lower/dvdorder_train.json
+02/14/2023 02:08:31 dvd_hanashi/dvd_order_new/1/bert_cased_lower/dvdorder_dev.json
+02/14/2023 02:08:44 Task dvdorder
+02/14/2023 02:08:44 dvd_hanashi/dvd_order_new/2/bert_cased_lower/dvdorder_train.json
+02/14/2023 02:08:45 dvd_hanashi/dvd_order_new/2/bert_cased_lower/dvdorder_dev.json
+02/14/2023 02:08:58 Task dvdorder
+02/14/2023 02:08:58 dvd_hanashi/dvd_order_new/3/bert_cased_lower/dvdorder_train.json
+02/14/2023 02:08:58 dvd_hanashi/dvd_order_new/3/bert_cased_lower/dvdorder_dev.json
+02/14/2023 02:09:12 Task dvdorder
+02/14/2023 02:09:12 dvd_hanashi/dvd_order_new/4/bert_cased_lower/dvdorder_train.json
+02/14/2023 02:09:12 dvd_hanashi/dvd_order_new/4/bert_cased_lower/dvdorder_dev.json
+02/14/2023 02:34:19 Task ppf
+02/14/2023 02:34:39 Task ppf
+02/14/2023 02:34:39 dvd_hanashi/ppf_new/0/bert_cased_lower/ppf_train.json
+02/14/2023 02:34:40 dvd_hanashi/ppf_new/0/bert_cased_lower/ppf_dev.json
+02/14/2023 02:35:58 Task ppf
+02/14/2023 02:35:58 dvd_hanashi/ppf_new/1/bert_cased_lower/ppf_train.json
+02/14/2023 02:35:59 dvd_hanashi/ppf_new/1/bert_cased_lower/ppf_dev.json
+02/14/2023 02:36:14 Task ppf
+02/14/2023 02:36:14 dvd_hanashi/ppf_new/2/bert_cased_lower/ppf_train.json
+02/14/2023 02:36:14 dvd_hanashi/ppf_new/2/bert_cased_lower/ppf_dev.json
+02/14/2023 02:36:27 Task ppf
+02/14/2023 02:36:27 dvd_hanashi/ppf_new/3/bert_cased_lower/ppf_train.json
+02/14/2023 02:36:28 dvd_hanashi/ppf_new/3/bert_cased_lower/ppf_dev.json
+02/14/2023 02:36:41 Task ppf
+02/14/2023 02:36:41 dvd_hanashi/ppf_new/4/bert_cased_lower/ppf_train.json
+02/14/2023 02:36:42 dvd_hanashi/ppf_new/4/bert_cased_lower/ppf_dev.json
+02/14/2023 03:06:24 Task ppf
+02/14/2023 03:06:24 dvd_hanashi/hanashi_corpus/cross_validation/0/bert_cased_lower/ppf_train.json
+02/14/2023 03:06:27 dvd_hanashi/hanashi_corpus/cross_validation/0/bert_cased_lower/ppf_dev.json
+02/14/2023 03:06:40 Task ppf
+02/14/2023 03:06:40 dvd_hanashi/hanashi_corpus/cross_validation/1/bert_cased_lower/ppf_train.json
+02/14/2023 03:06:43 dvd_hanashi/hanashi_corpus/cross_validation/1/bert_cased_lower/ppf_dev.json
+02/14/2023 03:06:56 Task ppf
+02/14/2023 03:06:56 dvd_hanashi/hanashi_corpus/cross_validation/2/bert_cased_lower/ppf_train.json
+02/14/2023 03:06:58 dvd_hanashi/hanashi_corpus/cross_validation/2/bert_cased_lower/ppf_dev.json
+02/14/2023 03:07:16 Task ppf
+02/14/2023 03:07:16 dvd_hanashi/hanashi_corpus/cross_validation/3/bert_cased_lower/ppf_train.json
+02/14/2023 03:07:18 dvd_hanashi/hanashi_corpus/cross_validation/3/bert_cased_lower/ppf_dev.json
+02/14/2023 03:07:34 Task ppf
+02/14/2023 03:07:34 dvd_hanashi/hanashi_corpus/cross_validation/4/bert_cased_lower/ppf_train.json
+02/14/2023 03:07:36 dvd_hanashi/hanashi_corpus/cross_validation/4/bert_cased_lower/ppf_dev.json
+02/14/2023 04:45:42 Task hanashiduration
+02/14/2023 04:45:42 dvd_hanashi/hanashi_duration/cross_validation/0/bert_cased_lower/hanashiduration_train.json
+02/14/2023 04:45:44 dvd_hanashi/hanashi_duration/cross_validation/0/bert_cased_lower/hanashiduration_dev.json
+02/14/2023 04:46:40 Task hanashiduration
+02/14/2023 04:46:40 dvd_hanashi/hanashi_duration/cross_validation/1/bert_cased_lower/hanashiduration_train.json
+02/14/2023 04:46:42 dvd_hanashi/hanashi_duration/cross_validation/1/bert_cased_lower/hanashiduration_dev.json
+02/14/2023 04:46:55 Task hanashiduration
+02/14/2023 04:46:55 dvd_hanashi/hanashi_duration/cross_validation/2/bert_cased_lower/hanashiduration_train.json
+02/14/2023 04:46:57 dvd_hanashi/hanashi_duration/cross_validation/2/bert_cased_lower/hanashiduration_dev.json
+02/14/2023 04:47:11 Task hanashiduration
+02/14/2023 04:47:11 dvd_hanashi/hanashi_duration/cross_validation/3/bert_cased_lower/hanashiduration_train.json
+02/14/2023 04:47:14 dvd_hanashi/hanashi_duration/cross_validation/3/bert_cased_lower/hanashiduration_dev.json
+02/14/2023 04:47:40 Task hanashiduration
+02/14/2023 04:47:40 dvd_hanashi/hanashi_duration/cross_validation/4/bert_cased_lower/hanashiduration_train.json
+02/14/2023 04:47:43 dvd_hanashi/hanashi_duration/cross_validation/4/bert_cased_lower/hanashiduration_dev.json
+02/14/2023 05:52:36 Task genjitsukasou
+02/14/2023 05:52:36 dvd_hanashi/genjitsu_kasou/cross_validation/0/bert_cased_lower/genjitsukasou_train.json
+02/14/2023 05:52:38 dvd_hanashi/genjitsu_kasou/cross_validation/0/bert_cased_lower/genjitsukasou_dev.json
+02/14/2023 05:53:07 Task genjitsukasou
+02/14/2023 05:53:07 dvd_hanashi/genjitsu_kasou/cross_validation/1/bert_cased_lower/genjitsukasou_train.json
+02/14/2023 05:53:09 dvd_hanashi/genjitsu_kasou/cross_validation/1/bert_cased_lower/genjitsukasou_dev.json
+02/14/2023 05:53:23 Task genjitsukasou
+02/14/2023 05:53:23 dvd_hanashi/genjitsu_kasou/cross_validation/2/bert_cased_lower/genjitsukasou_train.json
+02/14/2023 05:53:25 dvd_hanashi/genjitsu_kasou/cross_validation/2/bert_cased_lower/genjitsukasou_dev.json
+02/14/2023 05:53:38 Task genjitsukasou
+02/14/2023 05:53:38 dvd_hanashi/genjitsu_kasou/cross_validation/3/bert_cased_lower/genjitsukasou_train.json
+02/14/2023 05:53:41 dvd_hanashi/genjitsu_kasou/cross_validation/3/bert_cased_lower/genjitsukasou_dev.json
+02/14/2023 05:53:55 Task genjitsukasou
+02/14/2023 05:53:55 dvd_hanashi/genjitsu_kasou/cross_validation/4/bert_cased_lower/genjitsukasou_train.json
+02/14/2023 05:53:58 dvd_hanashi/genjitsu_kasou/cross_validation/4/bert_cased_lower/genjitsukasou_dev.json
+02/17/2023 03:27:35 Task dvdppf
+02/17/2023 03:27:35 dvd_hanashi/aug/dvd_ppf_new/0/bert_cased_lower/dvdppf_train.json
+02/17/2023 03:27:37 dvd_hanashi/aug/dvd_ppf_new/0/bert_cased_lower/dvdppf_dev.json
+02/17/2023 03:27:52 Task dvdppf
+02/17/2023 03:27:52 dvd_hanashi/aug/dvd_ppf_new/1/bert_cased_lower/dvdppf_train.json
+02/17/2023 03:27:53 dvd_hanashi/aug/dvd_ppf_new/1/bert_cased_lower/dvdppf_dev.json
+02/17/2023 03:28:33 Task dvdppf
+02/17/2023 03:28:33 dvd_hanashi/aug/dvd_ppf_new/2/bert_cased_lower/dvdppf_train.json
+02/17/2023 03:28:34 dvd_hanashi/aug/dvd_ppf_new/2/bert_cased_lower/dvdppf_dev.json
+02/17/2023 03:28:47 Task dvdppf
+02/17/2023 03:28:47 dvd_hanashi/aug/dvd_ppf_new/3/bert_cased_lower/dvdppf_train.json
+02/17/2023 03:28:48 dvd_hanashi/aug/dvd_ppf_new/3/bert_cased_lower/dvdppf_dev.json
+02/17/2023 03:29:01 Task dvdppf
+02/17/2023 03:29:01 dvd_hanashi/aug/dvd_ppf_new/4/bert_cased_lower/dvdppf_train.json
+02/17/2023 03:29:02 dvd_hanashi/aug/dvd_ppf_new/4/bert_cased_lower/dvdppf_dev.json
+02/17/2023 05:08:41 Task dvdduration
+02/17/2023 05:08:41 dvd_hanashi/aug/dvd_duration_new/0/bert_cased_lower/dvdduration_train.json
+02/17/2023 05:08:42 dvd_hanashi/aug/dvd_duration_new/0/bert_cased_lower/dvdduration_dev.json
+02/17/2023 05:08:56 Task dvdduration
+02/17/2023 05:08:56 dvd_hanashi/aug/dvd_duration_new/1/bert_cased_lower/dvdduration_train.json
+02/17/2023 05:08:57 dvd_hanashi/aug/dvd_duration_new/1/bert_cased_lower/dvdduration_dev.json
+02/17/2023 05:09:11 Task dvdduration
+02/17/2023 05:09:11 dvd_hanashi/aug/dvd_duration_new/2/bert_cased_lower/dvdduration_train.json
+02/17/2023 05:09:12 dvd_hanashi/aug/dvd_duration_new/2/bert_cased_lower/dvdduration_dev.json
+02/17/2023 05:09:26 Task dvdduration
+02/17/2023 05:09:26 dvd_hanashi/aug/dvd_duration_new/3/bert_cased_lower/dvdduration_train.json
+02/17/2023 05:09:27 dvd_hanashi/aug/dvd_duration_new/3/bert_cased_lower/dvdduration_dev.json
+02/17/2023 05:09:59 Task dvdduration
+02/17/2023 05:09:59 dvd_hanashi/aug/dvd_duration_new/4/bert_cased_lower/dvdduration_train.json
+02/17/2023 05:10:00 dvd_hanashi/aug/dvd_duration_new/4/bert_cased_lower/dvdduration_dev.json
+02/20/2023 05:32:52 Task disc
+02/20/2023 05:32:52 dvd_hanashi/disc_task/0/bert_cased_lower/disc_train.json
+02/20/2023 05:32:56 dvd_hanashi/disc_task/0/bert_cased_lower/disc_dev.json
+02/20/2023 05:32:57 Task genjitsukasou
+02/20/2023 05:33:14 Task disc
+02/20/2023 05:33:14 dvd_hanashi/disc_task/1/bert_cased_lower/disc_train.json
+02/20/2023 05:33:18 dvd_hanashi/disc_task/1/bert_cased_lower/disc_dev.json
+02/20/2023 05:33:18 Task genjitsukasou
+02/20/2023 05:34:27 Task disc
+02/20/2023 05:34:27 dvd_hanashi/disc_task/2/bert_cased_lower/disc_train.json
+02/20/2023 05:34:31 dvd_hanashi/disc_task/2/bert_cased_lower/disc_dev.json
+02/20/2023 05:34:31 Task genjitsukasou
+02/20/2023 05:34:45 Task disc
+02/20/2023 05:34:45 dvd_hanashi/disc_task/3/bert_cased_lower/disc_train.json
+02/20/2023 05:34:49 dvd_hanashi/disc_task/3/bert_cased_lower/disc_dev.json
+02/20/2023 05:34:50 Task genjitsukasou
+02/20/2023 05:35:10 Task disc
+02/20/2023 05:35:10 dvd_hanashi/disc_task/4/bert_cased_lower/disc_train.json
+02/20/2023 05:35:13 dvd_hanashi/disc_task/4/bert_cased_lower/disc_dev.json
+02/20/2023 05:35:14 Task genjitsukasou

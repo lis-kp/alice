@@ -1,0 +1,14 @@
+genjitsukasou:
+  data_format: PremiseOnly
+  encoder_type: BERT
+  dropout_p: 0.1
+  enable_san: false
+  metric_meta:
+  - ACC
+  - F1
+  #loss: AdMSCriterion
+  n_class: 2
+  split_names:
+  - train
+  - dev
+  task_type: Classification

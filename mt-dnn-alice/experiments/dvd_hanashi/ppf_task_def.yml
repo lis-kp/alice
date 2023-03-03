@@ -1,0 +1,180 @@
+order:
+  data_format: PremiseOnly
+  encoder_type: BERT
+  dropout_p: 0.1
+  enable_san: false
+  metric_meta:
+  - ACC
+  - CMAT
+  #loss: AdMSCriterion
+  loss: CeCriterion
+  kd_loss: MseCriterion
+  adv_loss: HLCriterion
+  n_class: 6
+  split_names:
+  - train
+  - dev
+  task_type: Classification
+
+dur:
+  data_format: PremiseOnly
+  encoder_type: BERT
+  dropout_p: 0.1
+  enable_san: false
+  metric_meta:
+  - ACC
+  - CMAT
+  - F1MIC
+  #loss: AdMSCriterion
+  loss: CeCriterion
+  kd_loss: MseCriterion
+  adv_loss: HLCriterion
+  n_class: 8
+  split_names:
+  - train
+  - dev
+  task_type: Classification
+
+mat:
+  data_format: PremiseOnly
+  encoder_type: BERT
+  dropout_p: 0.1
+  enable_san: false
+  labels:
+  - AFTER
+  - OVERLAP-OR-AFTER
+  - OVERLAP
+  - BEFORE-OR-OVERLAP
+  - BEFORE
+  - VAGUE
+  metric_meta:
+  - ACC
+  - CMAT
+  #loss: AdMSCriterion
+  loss: CeCriterion
+  kd_loss: MseCriterion
+  adv_loss: HLCriterion
+  n_class: 6
+  split_names:
+  - train
+  - dev
+  task_type: Classification
+
+e2e:
+  data_format: PremiseOnly
+  encoder_type: BERT
+  dropout_p: 0.1
+  enable_san: false
+  labels:
+  - AFTER
+  - OVERLAP-OR-AFTER
+  - OVERLAP
+  - BEFORE-OR-OVERLAP
+  - BEFORE
+  - VAGUE
+  metric_meta:
+  - ACC
+  - CMAT
+  #loss: AdMSCriterion
+  loss: CeCriterion
+  kd_loss: MseCriterion
+  adv_loss: HLCriterion
+  n_class: 6
+  split_names:
+  - train
+  - dev
+  task_type: Classification
+
+t2e:
+  data_format: PremiseOnly
+  encoder_type: BERT
+  dropout_p: 0.1
+  enable_san: false
+  labels:
+  - AFTER
+  - OVERLAP-OR-AFTER
+  - OVERLAP
+  - BEFORE-OR-OVERLAP
+  - BEFORE
+  - VAGUE
+  metric_meta:
+  - ACC
+  - CMAT
+  #loss: AdMSCriterion
+  loss: CeCriterion
+  kd_loss: MseCriterion
+  adv_loss: HLCriterion
+  n_class: 6
+  split_names:
+  - train
+  - dev
+  task_type: Classification
+
+dct:
+  data_format: PremiseOnly
+  encoder_type: BERT
+  dropout_p: 0.1
+  enable_san: false
+  labels:
+  - AFTER
+  - OVERLAP-OR-AFTER
+  - OVERLAP
+  - BEFORE-OR-OVERLAP
+  - BEFORE
+  - VAGUE
+  metric_meta:
+  - ACC
+  - CMAT
+  #loss: AdMSCriterion
+  loss: CeCriterion
+  kd_loss: MseCriterion
+  adv_loss: HLCriterion
+  n_class: 6
+  split_names:
+  - train
+  - dev
+  task_type: Classification
+
+
+dur:
+  data_format: PremiseOnly
+  encoder_type: BERT
+  dropout_p: 0.1
+  enable_san: false
+  metric_meta:
+  - ACC
+  - CMAT
+  - F1MIC
+  #loss: AdMSCriterion
+  loss: CeCriterion
+  kd_loss: MseCriterion
+  adv_loss: HLCriterion
+  n_class: 8
+  split_names:
+  - train
+  - dev
+  task_type: Classification
+
+ppf:
+  data_format: PremiseOnly
+  encoder_type: BERT
+  dropout_p: 0.1
+  enable_san: false
+  labels:
+  - UNKNOWN
+  - FUTURE
+  - PAST
+  - PRESENT
+  metric_meta:
+  - ACC
+  - CMAT
+  - F1MIC
+  #loss: AdMSCriterion
+  loss: CeCriterion
+  kd_loss: MseCriterion
+  adv_loss: HLCriterion
+  n_class: 4
+  split_names:
+  - train
+  - dev
+  task_type: Classification
