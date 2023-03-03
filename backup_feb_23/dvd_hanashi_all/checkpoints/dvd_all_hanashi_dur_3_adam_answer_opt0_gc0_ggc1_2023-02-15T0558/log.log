@@ -1,6 +1,0 @@
-02/15/2023 05:58:01 0
-02/15/2023 05:58:01 Launching the MT-DNN training
-02/15/2023 05:58:01 Loading ../../../dvd_hanashi/dvd_hanashi_all/3/dvdppf_train.json as task 0
-02/15/2023 05:58:01 Loading ../../../dvd_hanashi/dvd_hanashi_all/3/dvdduration_train.json as task 1
-02/15/2023 05:58:01 Loading ../../../dvd_hanashi/dvd_hanashi_all/3/dvdorder_train.json as task 2
-02/15/2023 05:58:01 Loading ../../../dvd_hanashi/dvd_hanashi_all/3/hanashiduration_train.json as task 3

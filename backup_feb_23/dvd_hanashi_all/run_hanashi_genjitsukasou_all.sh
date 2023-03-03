@@ -1,5 +1,0 @@
-sh run_hanashi_genjitsukasou_0.sh
-sh run_hanashi_genjitsukasou_1.sh
-sh run_hanashi_genjitsukasou_2.sh
-sh run_hanashi_genjitsukasou_3.sh
-sh run_hanashi_genjitsukasou_4.sh
